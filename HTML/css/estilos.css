@@ -5,3 +5,7 @@
 .center_img {
     margin: auto;
 }
+
+.fondo_img {
+    background-image: url(../img/background_div.jpg);
+}
