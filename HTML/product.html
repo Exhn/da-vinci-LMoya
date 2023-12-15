@@ -24,13 +24,13 @@
                   <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Juego</a>
+                  <a class="nav-link" href="juego.html">Juego</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="product.html">Productos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Historia</a>
+                  <a class="nav-link" href="historia.html">Historia</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Contacto</a>
@@ -40,20 +40,179 @@
           </div>
         </nav>
         <div class="container-fluid mx-auto">
-            <img class='img-fluid w-100' src="img/productos_banner.jpg" alt="banner productos">
-        </div>
+          <img class='img-fluid w-100' src="img/productos_banner.jpg" alt="banner productos">
+      </div>
+      </header>
+      <main class="container">
         <div class="card text-bg-dark">
             <img src="img/destacado_banner.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h1 class="card-title">Productos Destacados</h1>
+            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+              <h1 class="card-title font-weight-bold fs-1">Productos Destacados</h1>
             </div>
           </div>
-      </header>
-        <main class="container">
-            <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+
+
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card text-bg-primary mb-3 h-100">
+                      <img src="img/productos_img/commander_masters.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Sobres de draft</h5>
+                        <p class="card-text">¡La experiencia de Commander Draft definitiva, con sobres que incluyen lo que necesitas para montar tu mazo y jugar! Consulta los eventos de Draft en tu tienda de juegos local. Esta caja contiene 24 sobres de Draft.</p>
+                      </div>
+                      <div class="card-footer">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-bg-primary mb-3 h-100">
+                      <img src="img/productos_img/commander_masters_collector.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Caja de sobres de coleccionista</h5>
+                        <p class="card-text">Cargados con las cartas que quieres y los tratamientos que necesitas. Abre flamantes cartas foil grabadas y foil con textura, 5 cartas sin borde y 5 cartas raras o de una rareza superior,</p>
+                      </div>
+                      <div class="card-footer">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-bg-primary mb-3 h-100">
+                      <img src="img/productos_img/commander_masters_decks.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Mazos de Commander</h5>
+                        <p class="card-text">Cada poderoso mazo preconstruido tiene 10 cartas totalmente nuevas hechas para Commander. ¡Sacate un master en estrategia con cuatro opciones de mazos, todos ellos con comandantes principales nunca vistos!</p>
+                      </div>
+                      <div class="card-footer">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+              <div class="carousel-item">
+
+
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card text-bg-primary mb-3 h-100">
+                      <img src="img/productos_img/doctor_who_collector.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Caja de sobres de coleccionista</h5>
+                        <p class="card-text">Hacete con cartas de tus personajes favoritos de Doctor Who con 12 sobres llenos cartas raras (¡de 7 a 14 en cada sobre!), marcos resaltados de la TARDIS y más cartas foil brillantes a las que apuntar con tu destornillador sónico.</p>
+                      </div>
+                      <div class="card-footer">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-bg-primary mb-3 h-100">
+                      <img src="img/productos_img/lotr_escena.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Cajas de escena</h5>
+                        <p class="card-text">Las cajas de escena de El Señor de los Anillos: relatos de la Tierra Media contienen seis cartas foil sin borde con mecánicas únicas que se combinan para mostrar algunas de las escenas más memorables de El Señor de los Anillos.</p>
+                      </div>
+                      <div class="card-footer">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-bg-primary mb-3 h-100">
+                      <img src="img/productos_img/ixalan_collectors.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Caja de sobres de coleccionista</h5>
+                        <p class="card-text">Cuando abras un sobre de coleccionista, conseguiras cartas foil tradicionales, raras y/o miticas y una carta de Jurassic World del Más allá del Multiverso con los momentos y personajes más emblematicos de la franquicia de Jurassic World.</p>
+                      </div>
+                      <div class="card-footer">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+              </div>
+
+
+              <div class="carousel-item">
+
+
+
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card text-bg-primary mb-3 h-100">
+                      <img src="img/productos_img/lotr_jumpstart.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Jumpstart VOL. 2</h5>
+                        <p class="card-text">Este segundo volumen de sobres de Jumpstart de El Señor de los Anillos contiene cinco tematicas más para explorar la Tierra Media. ¡Mezclalos y juga para probar combinaciones variadas!</p>
+                      </div>
+                      <div class="card-footer">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-bg-primary mb-3 h-100">
+                      <img src="img/productos_img/doctor_who_commander.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Bundle de mazos de commander</h5>
+                        <p class="card-text">¡Unite a tu Doctor favorito y a sus compañeros o a sus más grandes enemigos con los cuatro mazos de Commander de Doctor Who! Cada mazo de 100 cartas listo para jugar presenta 50 cartas nuevas con arte y mecanicas con tematicas de Doctor Who.</p>
+                      </div>
+                      <div class="card-footer">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-bg-primary mb-3 h-100">
+                      <img src="img/productos_img/wild_of_eldraine.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Caja de sobres de coleccionista</h5>
+                        <p class="card-text">¡Esta remesa de sobres de coleccionista recién salidos del horno es un banquete digno de la realeza! Aparte de las cartas raras, las foil tradicionales y las cartas con arte extendido garantizadas,  estos sobres contienen al menos 3 cartas sin borde especiales para darles un toque extra.</p>
+                      </div>
+                      <div class="card-footer">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+              </div>
+
+
+            </div>
+
+
+            <button class="carousel-control-prev car_cont" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next car_cont" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <div style="height: 150px;"></div>
+
+          <div>
+            <h2>Commander</h2>
+          </div>
+
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                   <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/productos_img/doctor_who_commander_1.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -62,7 +221,7 @@
                 </div>
                 <div class="col">
                   <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/productos_img/doctor_who_commander_2.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -71,7 +230,7 @@
                 </div>
                 <div class="col">
                   <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/productos_img/doctor_who_commander_3.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -80,7 +239,25 @@
                 </div>
                 <div class="col">
                   <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/productos_img/doctor_who_commander_4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/productos_img/brothers_war_commander.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/productos_img/commander_masters_decks.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -88,7 +265,54 @@
                   </div>
                 </div>
               </div>
-        </main>
+
+              <div style="height: 150px;"></div>
+
+              <div>
+                <h2>Booster box</h2>
+              </div>
+
+              <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="img/productos_img/brothers_war_booster.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/productos_img/commander_masters.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/productos_img/ixalan_boosters.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/productos_img/wild_of_eldraine_boosters.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+
+
+      </main>
       <footer>
         <div class="text-bg-dark p-3">Dark with contrasting color</div>
       </footer>

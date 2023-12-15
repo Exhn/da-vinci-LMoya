@@ -9,3 +9,11 @@
 .fondo_img {
     background-image: url(../img/magic_background_product.jpg);
 }
+
+
+.car_cont {
+    height: 26%;
+    top: 33%;
+    width: 86px;
+    background: black;
+    }
