@@ -1,0 +1,7 @@
+Alumna: Moya, Lucia Pamela
+DNI: 35805580
+Comision: ACT1AV
+Materia: Programacion Web I
+Profesora: Meijide, Valeria
+Navegador: Chrome
+Horas de trabajo: Aproximadamente 36hs
